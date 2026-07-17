@@ -1627,3 +1627,10 @@ a {
     width: 400px;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .campaign-note {
+    width: fit-content;
+    margin: 12px auto 0;
+    text-align: left;
+  }
+}
