@@ -551,6 +551,14 @@ a {
   border-top: 1px dashed #c8a85d;
 }
 
+.campaign-note {
+  font-size: 0.75rem;
+  color: #8b7355;
+  line-height: 1.7;
+  margin-top: 12px;
+  text-align: left;
+}
+
 /* ========== SECTION: 古い切手も ========== */
 .section-oldstamp {
   background: none;
@@ -1042,9 +1050,19 @@ a {
   height: 100%;
 }
 
+.store-exterior-img {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+}
+
 .store-map {
   width: 100%;
   flex: 1;
+  min-height: 0;
   border-radius: 8px;
   display: block;
 }
@@ -1516,8 +1534,8 @@ a {
     height: 400px;
   }
 
-  .store-map {
-    height: 400px;
+  .store-map-wrap {
+    height: 100%;
   }
 }
 
